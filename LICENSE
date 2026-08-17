@@ -1,0 +1,92 @@
+CareBlocks - Healthcare Informatics Automator Toolkit
+Copyright (c) 2026 Creative Mind Blocks. All rights reserved.
+Author: Dr. Somnath V
+
+This software and associated documentation files (the "Software") are the
+proprietary property of Creative Mind Blocks ("Licensor"), created by its
+author, Dr. Somnath V ("Author"). The Software is provided under license,
+not sold.
+
+1. GRANT OF LICENSE
+   Licensor grants you a limited, non-exclusive, non-transferable, revocable
+   license to install and use the Software for your own personal or internal
+   organizational purposes, free of charge, subject to the terms below.
+
+2. RESTRICTIONS
+   You may not, without Licensor's prior written permission:
+     (a) redistribute, publish, sublicense, sell, rent, or lease the Software
+         or any part of it;
+     (b) modify, adapt, translate, or create derivative works based on the
+         Software;
+     (c) reverse engineer, decompile, or disassemble the Software, except to
+         the extent applicable law expressly permits this despite this
+         restriction;
+     (d) remove or alter any copyright, trademark, or other proprietary
+         notice contained in the Software.
+   To request permission for any of the above, contact: cremindb@gmail.com
+
+3. OWNERSHIP
+   The Software is licensed, not sold. Licensor retains all right, title,
+   and interest in and to the Software, including all intellectual property
+   rights therein. No rights are granted to you other than those expressly
+   stated in this license.
+
+4. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT. Neither Licensor nor the Author warrants that the
+   Software will be error-free or uninterrupted. This is a demo version;
+   neither Creative Mind Blocks nor its author, Dr. Somnath V, is
+   responsible for any loss of information or any altered content
+   resulting from use of the Software. You are solely responsible for any
+   information, data, or changes reflected by your use of the Software.
+
+5. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL LICENSOR OR THE AUTHOR BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
+   THE USE OR OTHER DEALINGS IN THE SOFTWARE. Neither CareBlocks, Creative
+   Mind Blocks, nor its author, Dr. Somnath V, bears any legal
+   responsibility for your use of this tool.
+
+6. CLINICAL USE AND REGULATORY DISCLAIMER
+   The Software is a clinical documentation aid and does not make diagnosis,
+   treatment, or care decisions. Every abbreviation expansion, warning, or
+   blocked action the Software performs must be reviewed by the user before
+   it becomes part of the medical record. Final clinical judgment, and full
+   responsibility for the accuracy and completeness of the resulting
+   documentation, rest entirely with the user - not with Licensor or the
+   Author.
+
+   The Software is designed to honor HIPAA data privacy and to reduce
+   documentation errors while charting. Any data loss or data alteration is
+   contrary to the Software's design intent, not an accepted or expected
+   outcome of its normal use. Notwithstanding that
+   intent, neither CareBlocks, Creative Mind Blocks, nor its author, Dr.
+   Somnath V, accepts any legal liability of any kind - including for data
+   loss, data alteration, a missed or incorrect abbreviation expansion or
+   warning, or any resulting medical-legal complication (MLC) - arising
+   from use of the Software.
+
+   The Software implements technical measures intended to support your
+   organization's HIPAA compliance efforts and to align with the
+   abbreviation-safety intent of Joint Commission / Joint Commission
+   International (JCI) standards, including JCI's Management of
+   Information (MOI) chapter, Standard MOI.4. The Software is not itself
+   HIPAA-certified or JCI-accredited, and installing or using it does not,
+   by itself, make your organization compliant with HIPAA, Joint
+   Commission/JCI, or any other regulatory or accreditation standard -
+   that responsibility remains entirely with your organization. See
+   COMPLIANCE.md for the full explanation, including reference citations.
+
+7. TERMINATION
+   This license is effective until terminated. It will terminate
+   automatically without notice if you fail to comply with any of its
+   terms. Upon termination, you must cease all use of the Software and
+   destroy all copies in your possession.
+
+8. CONTACT
+   For licensing inquiries, permission requests, or to report an issue,
+   contact Creative Mind Blocks (creator) / Dr. Somnath V (author) at
+   cremindb@gmail.com.
