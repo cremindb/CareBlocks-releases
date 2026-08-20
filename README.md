@@ -53,7 +53,8 @@ get started immediately - no need to build your own workbook before trying the t
 
 ## Training videos
 
-A 5-part video walkthrough, one per Configuration Page tab plus a getting-started intro:
+Watch the [full playlist](https://www.youtube.com/playlist?list=PLBIaNSu79BZ8), or jump to a specific
+part - a 5-part video walkthrough, one per Configuration Page tab plus a getting-started intro:
 
 1. [Part 1 — Getting Started](https://youtu.be/D8RopjJQLvU) - install, find CareBlocks in your tray,
    and a tour of all 4 tabs.
