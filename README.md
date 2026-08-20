@@ -51,6 +51,21 @@ A complete, ready-to-use abbreviation workbook, `HIAT_DCW.xlsx`, is included in 
 alongside `CareBlocks.App.exe`. On the Abbreviation Stacks card, click **Change…** and select it to
 get started immediately - no need to build your own workbook before trying the tool.
 
+## Training videos
+
+A 5-part video walkthrough, one per Configuration Page tab plus a getting-started intro:
+
+1. [Part 1 — Getting Started](https://youtu.be/D8RopjJQLvU) - install, find CareBlocks in your tray,
+   and a tour of all 4 tabs.
+2. [Part 2 — Content and Rules](https://youtu.be/Xnk9WB6rj3s) - abbreviation expansion and
+   dangerous-term safety.
+3. [Part 3 — Access and Guarding](https://youtu.be/D9Jrg826Qws) - credentials and clipboard/print
+   protection.
+4. [Part 4 — System and Support](https://youtu.be/hMGq2sKx-CE) - Activity Log, metrics, and the
+   Knowledge Base.
+5. [Part 5 — Dashboard](https://youtu.be/bcgNco9MhAs) - a visual look at everything CareBlocks has
+   caught.
+
 ## Known limitations
 
 This is a demo-stage release, not a finished commercial product. Worth knowing before relying on it:
