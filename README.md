@@ -53,8 +53,11 @@ get started immediately - no need to build your own workbook before trying the t
 
 ## Training videos
 
-A 5-part video walkthrough, one per Configuration Page tab plus a getting-started intro:
+All 6 videos below are also collected as a real YouTube Course,
+["Learn all about CareBlocks Healthcare Automation Toolkit"](https://www.youtube.com/playlist?list=PLbiUc-Je5i7Q).
 
+0. [Course Introduction](https://www.youtube.com/watch?v=y3VcV7ajYkw) - meet the instructor and get
+   a roadmap of everything the course covers.
 1. [Part 1 — Getting Started](https://youtu.be/D8RopjJQLvU) - install, find CareBlocks in your tray,
    and a tour of all 4 tabs.
 2. [Part 2 — Content and Rules](https://youtu.be/Xnk9WB6rj3s) - abbreviation expansion and
