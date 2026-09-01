@@ -51,6 +51,14 @@ A complete, ready-to-use abbreviation workbook, `HIAT_DCW.xlsx`, is included in 
 alongside `CareBlocks.App.exe`. On the Abbreviation Stacks card, click **Change…** and select it to
 get started immediately - no need to build your own workbook before trying the tool.
 
+### About the workbook being locked for editing
+
+The abbreviation workbook ships password-protected. This is a time-limited safeguard for the
+early part of a deployment, not a permanent restriction: the content is ultimately the
+hospital's to control, and the password is handed over after handover, knowledge transfer, and a
+written responsibility sign-off. Protection blocks editing in Excel; it never blocks the app from
+reading the workbook, so CareBlocks works normally.
+
 ## Training videos
 
 All 6 videos below are also collected as a real YouTube Course,
@@ -78,17 +86,24 @@ This is a demo-stage release, not a finished commercial product. Worth knowing b
   is exactly the shape of behavior AV tools are built to watch for).
 - **No auto-update** - checking for and installing a newer version is manual (re-download and
   re-extract).
-- The clipboard/print guard only intercepts specific keyboard shortcuts (`Ctrl+C/X/V/P`, Print Screen,
-  `Win+Shift+S`) - a menu-triggered copy/paste, or a separately-launched screenshot tool, isn't caught.
+- The copy and screen-capture guard covers the keyboard shortcuts (`Ctrl+C`, `Ctrl+X`, `Ctrl+V`,
+  Print Screen, `Win+Shift+S`) and, since v1.1, menu- and toolbar-triggered copying as well. A
+  separately-launched screenshot tool still isn't caught. **Printing is not restricted at all** -
+  `Ctrl+P` was intercepted in v1.0 and that was deliberately removed, since blocking a clinician
+  printing a discharge summary was the wrong trade.
 - The Activity Log is stored locally as unencrypted SQLite - readable by anything with access to your
   Windows profile.
 - No settings backup/versioning beyond what's already in the app.
 
 ## Security & privacy
 
-- **No outbound network calls, anywhere in the app.** Everything the app shows (the Configuration
-  Page, popups, help content) is loaded from files bundled with the app itself - never a remote
-  server. This is a deliberate, standing requirement for a tool that runs directly alongside an EHR.
+- **No outbound network calls, unless you turn them on.** Everything the app shows (the
+  Configuration Page, popups, help content) is loaded from files bundled with the app itself - never
+  a remote server. This is a deliberate, standing requirement for a tool that runs directly alongside
+  an EHR. Two optional exceptions, both **off by default**, added in v1.1: a usage-reporting setting
+  that sends anonymous counts (never any text you typed), and a "Send usage data" button that sends
+  your activity log only when you press it and confirm. Leave both alone and the app never contacts
+  anything.
 - Credentials are stored in **Windows Credential Manager**, never written to a settings file or the
   Activity Log.
 - The abbreviation workbook, hotkey map, and feature toggles live in a local settings file under
