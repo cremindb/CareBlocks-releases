@@ -115,9 +115,10 @@ This is a demo-stage release, not a finished commercial product. Worth knowing b
   organization a real-time enforcement mechanism for its own restricted-terminology policy, built to
   support and align with the abbreviation-safety intent behind Joint Commission Standard IM.02.02.01
   and Joint Commission International (JCI) Standard MOI.4.
-- **HIPAA**: no outbound network calls, clipboard/print guarding, and Credential Manager-only
-  credential storage are technical safeguards that support your organization's HIPAA compliance
-  efforts, aligned with the HIPAA Security Rule's technical-safeguard categories (45 CFR § 164.312).
+- **HIPAA**: no outbound network calls in the default configuration, clipboard/screen-capture
+  guarding, and Credential Manager-only credential storage are technical safeguards that support your
+  organization's HIPAA compliance efforts, aligned with the HIPAA Security Rule's technical-safeguard
+  categories (45 CFR § 164.312). No patient-identifiable data is transmitted under any configuration.
 - CareBlocks is not itself HIPAA-certified or JCI-accredited, and using it does not, by itself, make
   your organization compliant with either - that remains your organization's responsibility.
 - See [COMPLIANCE.md](COMPLIANCE.md) for the full explanation and reference citations, and
