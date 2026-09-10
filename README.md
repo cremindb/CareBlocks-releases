@@ -108,6 +108,9 @@ This is a demo-stage release, not a finished commercial product. Worth knowing b
   Activity Log.
 - The abbreviation workbook, hotkey map, and feature toggles live in a local settings file under
   `%LocalAppData%\CareBlocks\` - never uploaded anywhere.
+- **[Privacy policy](PRIVACY.md)** - the full statement: that CareBlocks installs a global
+  keyboard hook and why, precisely what is retained and what is discarded, what the Activity Log
+  can and cannot contain, and how to delete everything it holds.
 
 ## Regulatory & clinical-safety alignment
 
