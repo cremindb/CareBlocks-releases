@@ -111,6 +111,11 @@ This is a demo-stage release, not a finished commercial product. Worth knowing b
 - **[Privacy policy](PRIVACY.md)** - the full statement: that CareBlocks installs a global
   keyboard hook and why, precisely what is retained and what is discarded, what the Activity Log
   can and cannot contain, and how to delete everything it holds.
+- **[Security and data-handling brief](CareBlocks_Security_DataHandling_Brief.pdf)** (PDF) - written
+  for an IG or security team evaluating the tool: the architecture, a data-flow table, the keyboard
+  hook and exactly what it retains, what is and is not yet in place (no SOC 2, no penetration test),
+  region-specific notes, and - for IT teams deploying to managed workstations - the package
+  identifiers an AppLocker/WDAC rule or Intune deployment keys on.
 
 ## Regulatory & clinical-safety alignment
 
