@@ -17,10 +17,26 @@ automatically at sign-in.
 
 ## Download
 
-Download the latest release from the [Releases page](https://github.com/cremindb/CareBlocks-releases/releases).
+**From the Microsoft Store — recommended.** Signed by Microsoft, installs without the SmartScreen
+prompt, and updates through the Store:
 
+<a href="https://get.microsoft.com/installer/download/9P07CV1WJ28R?referrer=appbadge&cid=readme_public"><picture><source media="(prefers-color-scheme: dark)" srcset="https://get.microsoft.com/images/en-us%20light.svg"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Download from the Microsoft Store"></picture></a>
+
+Or open the listing first: https://apps.microsoft.com/detail/9P07CV1WJ28R?cid=readme_public
+
+**Or as a zip, from the [Releases page](https://github.com/cremindb/CareBlocks-releases/releases).**
 Each release is a single `CareBlocks-vX.Y.Z-win-x64.zip` containing everything needed to run the app -
-no installer, no separate .NET runtime download.
+no installer, no separate .NET runtime download. This is the right route where the Store client is
+unavailable — it is the same application, and it still works exactly as before. Because the zip's
+executable is not code-signed, Windows will show a "Windows protected your PC" SmartScreen prompt on
+first run: click **More info**, then **Run anyway**.
+
+**For IT teams deploying to managed workstations**: the packaged build's Package Family Name is
+`CreativeMindBlocks.CareBlocks_qc1n5wecx82ya`, which is what an AppLocker or WDAC packaged-app rule
+keys on; the Store ID `9P07CV1WJ28R` is what Intune takes for a "Microsoft Store app (new)", and that
+route works even where the Store client is disabled for end users. The
+[security and data-handling brief](CareBlocks_Security_DataHandling_Brief.pdf) has the full
+identifiers and the deployment notes.
 
 ## System requirements
 
@@ -33,13 +49,20 @@ no installer, no separate .NET runtime download.
 
 ## Install & run
 
+**From the Microsoft Store**: click the badge above. Microsoft's installer (under 1 MB) downloads,
+installs CareBlocks, adds it to the Start menu and launches it — without the SmartScreen prompt.
+
+**From the zip**:
+
 1. Download the zip from [Releases](https://github.com/cremindb/CareBlocks-releases/releases) and extract it
    to any folder.
 2. Run `CareBlocks.App.exe`.
-3. **You will likely see a "Windows protected your PC" SmartScreen warning.** This is expected - the
-   exe isn't code-signed yet (see [Known limitations](#known-limitations) below). Click **More info**,
+3. **You will see a "Windows protected your PC" SmartScreen warning.** This is expected - the zip's
+   exe isn't code-signed (see [Known limitations](#known-limitations) below). Click **More info**,
    then **Run anyway**.
-4. On first launch you'll see a short welcome popup, then the app runs quietly in the system tray.
+
+Either way, on first launch you'll see a short welcome popup, then the app runs quietly in the system
+tray.
 
 ## First-run setup
 
@@ -81,11 +104,12 @@ All 6 videos below are also collected as a real YouTube Course,
 
 This is a demo-stage release, not a finished commercial product. Worth knowing before relying on it:
 
-- The exe is **not code-signed** - expect a SmartScreen warning on first run, and some corporate
-  antivirus/EDR software may flag or quarantine it (a global keyboard hook plus credential handling
-  is exactly the shape of behavior AV tools are built to watch for).
-- **No auto-update** - checking for and installing a newer version is manual (re-download and
-  re-extract).
+- The **zip build's exe is not code-signed** - expect a SmartScreen prompt on first run from that
+  route, and some corporate antivirus/EDR software may flag or quarantine it (a global keyboard hook
+  plus credential handling is exactly the shape of behavior AV tools are built to watch for). The
+  Microsoft Store build is signed by Microsoft and does not show the prompt.
+- **No auto-update on the zip route** - checking for and installing a newer version is manual
+  (re-download and re-extract). The Microsoft Store build updates through the Store.
 - The copy and screen-capture guard covers the keyboard shortcuts (`Ctrl+C`, `Ctrl+X`, `Ctrl+V`,
   Print Screen, `Win+Shift+S`) and, since v1.1, menu- and toolbar-triggered copying as well. A
   separately-launched screenshot tool still isn't caught. **Printing is not restricted at all** -
